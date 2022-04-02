@@ -1,0 +1,108 @@
+{
+  "ConnectionString": {
+    "DefaultConnection": "Data Source=TimeBot.db"
+  },
+  "Proccess": {
+    "Weather": {
+      "Monthly": false,
+      "Weekly": false,
+      "Daily": true,
+      "Hourly": false
+    },
+    "Currency": {
+      "RegionRate": {
+        "Get": true,
+        "Insert": true
+      },
+      "MarketRate": {
+        "Get": true,
+        "Insert": true
+      },
+      "BankRate": {
+        "Get": true,
+        "Insert": true
+      },
+      "CbuRate": {
+        "Get": true,
+        "Insert": true
+      },
+      "BirjaRate": {
+        "Get": true,
+        "Insert": true
+      }
+    },
+    "Prediction": {
+
+    },
+    "Other": {
+      "ThreadSettings": {
+        "SleepMinutes": 1,
+        "LogToFile": true,
+        "LogToConsole": true
+      },
+      "DatabaseName":"TimeBot.db",
+      "LogFileName":"Log.log",
+      "EndPointSettings":{        
+        "ProcessRegionCurrencyRate": false,
+        "ProcessMarketCurrencyRate": false,
+        "ProcessBankCurrencyRate": false,
+        "ProcessCbCurrencyRate": false,
+        "ProcessBirjaCurrencyRate": false
+      }
+    }
+  },
+  "Telegram": {
+    "BotApi": "5269170225:AAHvfjaGACeirV_jpND4J-Yk6zlwMLHS4yM",
+    "Id": {
+      "Owner": 5091997939,
+      "Admin": [ 249024069, 5037566761 ],
+      "Channel": -1001385518381,
+      "Group": -1001478968460
+    }
+  },
+  "Path": {
+    "Html": "d:\\Ruzimurod\\Projects\\MyBot\\Files\\Html\\",
+    "Database": "d:\\Ruzimurod\\Projects\\MyBot\\Files\\",
+    "Text": "d:\\Ruzimurod\\Projects\\MyBot\\Files\\Text\\",
+    "Log": "d:\\Ruzimurod\\Projects\\MyBot\\Files\\Log\\",
+    "Json": "d:\\Ruzimurod\\Projects\\MyBot\\Files\\Json\\"
+  },
+  "UrlAddresses": {
+    "UrlRegionCurrencyRate": "http://dollaruz.pw",
+    "UrlCbCurrencyRate": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/",
+    "UrlBirjaCurrencyRate":"https://www.uzrvb.uz/",
+    "UrlBanks": {
+      //"MainUrl": "https://telegra.ph/Ssylki-na-kurs-valyut-bankov-RUz-09-12",
+      "InfinBank": "https://www.infinbank.com/uz/private/exchange-rates/",
+      "Savdogarbank": "https://savdogarbank.uz/yz/",
+      "AnorBank": "https://www.anorbank.uz/",
+      "TrustBank": "http://trustbank.uz/oz/",
+      "AAB": "https://aab.uz/uz/",
+      "XalqBanki": "https://xb.uz:9446/v1/external/client/default?_f=json",
+      "UniversalBank": "https://universalbank.uz/private",
+      "AloqaBank": "https://aloqabank.uz/ru",
+      "HamkorBank": "https://hamkorbank.uz/uz/",
+      "SQB": "https://sqb.uz/api/site-kurs-api/",
+      "KapitalBank": "https://www.kapitalbank.uz/ru/welcome.php#currency-archive",
+      "IpakYuliBank": "https://ipakyulibank.uz/physical/valyuta-ayirboshlash/kurslar",
+      "AgroBank": "https://agrobank.uz/",
+      "IpotekaBank": "https://www.ipotekabank.uz/uz/",
+      //,"XalqBanki": "https://xb.uz/uz/page/physical",
+      //"DavrBank": "https://www.davrbank.uz",
+      "NBU": "https://nbu.uz/exchange-rates/",
+      "Mikrokreditbank": "https://mikrokreditbank.uz/",
+      "ZiraatBank": "https://ziraatbank.uz/",
+      "AsakaBank": "https://asakabank.uz/uz",
+      "RavnaqBank": "https://www.ravnaqbank.uz/ru/services/exchange-rates/",
+      "QQB": "https://manage.qishloqqurilishbank.uz/api/currency-rates/last",
+      "OrientFinansBank": "https://ofb.uz/about/kurs-obmena-valyut/",
+      "TuronBank": "https://turonbank.uz/oz/",
+      "TengeBank": "https://tengebank.uz/uz"
+    },
+    "UrlWeather":{
+      "Daily":{
+        "Toshkent":"https://www.worldweatheronline.com/tashkent-weather/toshkent/uz.aspx"
+      },
+    }
+  }
+}

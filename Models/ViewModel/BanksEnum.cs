@@ -1,0 +1,30 @@
+﻿namespace TimeBot.ViewModel
+{
+    public enum BanksEnum
+    {
+        InfinBank,
+        AnorBank,
+        Trustbank,
+        AAB,
+        XB,
+        UniversalBank,
+        AloqaBank,
+        HamkorBank,
+        SQB,
+        KapitalBank,
+        IpakYuliBank,
+        AgroBank,
+        IpotekaBank,
+        //DavrBank,
+        NBU,
+        Mikrokreditbank,
+        ZiraatBank,
+        AsakaBank,
+        RavnaqBank,
+        QQB,
+        Savdogarbank,
+        OrientFinansBank,
+        TuronBank,
+        TengeBank,
+    }
+}
